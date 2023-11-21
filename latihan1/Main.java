@@ -25,8 +25,8 @@ public static void main (String[]args) {
         setValue("1101", "susu indomilk", "D1", 3500, 5000, 1);
         setValue("1102","Kopi","D1",7000,0,5);
         setValue("2202","Better","F1",1500,0,1);
-    } catch (MyException e) {
-    System.out.println(e.getMessage());
-}
-}
+        } catch (MyException e) {
+            System.out.println(e.getMessage());
+        }
+    }
 }
